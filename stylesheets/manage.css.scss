@@ -1,0 +1,655 @@
+div#sidebarmanage{
+  border-left: 2px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+p.managesections{
+  color: #000;
+  font-weight: bold;
+  font-family: 'proxima-nova', 'helvetica';
+  margin: 0px;
+}
+ul.manage li a {
+  padding: 3px 15px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+color: #fff;
+background-color: #333;
+font-weight: 600;
+}
+div#managecontentarea{
+  border-left: 2px solid #000;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  margin-left: -40px;
+  min-height: 650px;
+  margin-bottom: 50px;
+}
+h1.comp-name-manage-h1{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+h4.manage-h4{
+  margin: 0px;
+}
+ul.manage hr{
+  margin: 5px 0px 10px 0px;
+}
+h1.manageheaders{
+  font-family: 'proxima-nova', Helvetica;
+  font-size: 24px;
+}
+th.hfcmanage.center{
+  border-bottom: 2px solid #C71585;
+  background-color: #fff !important;
+  border-top: 1px solid #fff !important;
+  border-right: 25px solid #fff !important;
+  border-left: 25px solid #fff !important;
+}
+td.hfcmanage.center{
+  background-color: #fff !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: 1px solid #fff !important;
+  border-left: 1px solid #fff !important;
+  border-top: 1px solid #fff !important;
+  border-bottom: 1px solid #fff !important;
+}
+td.hfcmanagev.center{
+  background-color: #fff !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: 1px solid #fff !important;
+  border-left: 1px solid #fff !important;
+  border-top: 1px solid #ddd !important;
+  border-bottom: 1px solid #ddd !important;
+}
+textarea#message{
+	width: 100%;
+	height: 150px;
+	margin-bottom: 20px;
+}
+div#rsvpurl{
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 3px;
+  color: #000;
+  font-family: 'Montserrat', Helvetica;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+div#rsvpwell{
+  min-height: 100px;
+}
+/*promotions grid styling*/
+.center{
+  text-align: center;
+}
+h1#bigbless{
+  font-family: 'Pacifico', Helvetica;
+  font-size: 80px;
+}
+
+.panel-image img.panel-image-preview {
+    width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.panel-heading ~ .panel-image img.panel-image-preview {
+  border-radius: 0px;
+}
+
+.panel-image ~ .panel-body, .panel-image.hide-panel-body ~ .panel-body {
+  overflow: hidden;
+}
+.panel-image ~ .panel-footer a {
+  padding: 0px 10px;
+  font-size: 1.3em;
+  color: rgb(100, 100, 100);
+}
+
+.panel-image.hide-panel-body ~ .panel-body {
+  height: 0px;
+  padding: 0px;
+}
+p.promoinfo{
+  font-size: 12px;
+}
+/*end promotions grid styling*/
+
+
+
+/*Logistics grid styling*/
+
+div.logistics-cover{
+  background-color: #292f33;
+  padding:50px 50px 50px 50px;
+  color: white;
+  vertical-align: middle;
+  border-bottom: 10px solid #999;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 8px;
+}
+div.cover-line-design{
+  border:5px solid white;
+  padding: 100px 0px 100px 0px;
+}
+p.lp-cover-title{
+  font-weight: 900;
+  font-size: 24px;
+  color: white;
+}
+p.lp-cover-subtitle{
+  font-size: 18px;
+  color: white;
+}
+/*end Logistics styling*/
+
+
+
+/*event summary styling*/
+dd.summary{
+  margin-bottom: 10px;
+}
+th.thsummary{
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+  border-top: transparent;
+  border-bottom: 3px solid #C71585;
+}
+.badgelg {
+display: inline-block;
+min-width: 10px;
+padding: 6px 14px;
+font-size: 18px;
+font-weight: bold;
+color: white;
+line-height: 1;
+vertical-align: baseline;
+white-space: nowrap;
+text-align: center;
+background-color: #999999;
+border-radius: 10px;
+}
+textarea#event_admin_note.text.optional{
+  height: 150px;
+  width:60%;
+  margin-bottom: 20px;
+}
+
+/*summary page styles */
+div#summarytodos{
+  border-left: 1px dotted #292f33;
+  border-right: 1px dotted #292f33;
+  background-color: white;
+}
+div#summarytodoheader{
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #292f33;
+  padding: 10px;
+
+}
+div#summarytodolistitems{
+  padding-right: 0px;
+}
+ul#summarytodos{
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+li.summarytodo{
+  border-bottom: 1px dotted #292f33;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+div.proxnovrow{
+  font-family: 'proxima-nova', 'Helvetica';
+}
+div#topsummaryrow{
+  color: #292f33;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #292f33;
+}
+div#largenumberrow{
+  border-right: 1px dotted #292f33;
+}
+div.totalbooths{
+  font-size:100px;
+  font-weight: 900;
+  margin-bottom: 0px;
+  font-family: 'proxima-nova', 'Helvetica';
+  height: 86px;
+  line-height: 1;
+  color: #c71585;
+  -webkit-text-stroke: 1px black;
+
+}
+div.esttablesandchairs{
+  font-size: 40px;
+  height: 46px;
+  font-weight: normal;
+}
+div#summarybreakdownrow{
+  padding-top: 10px;
+  background-color: #f9f9f9;
+  padding-bottom: 30px;
+}
+h3#details{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+legend#breakdownheader{
+  color: #292f33;
+  border-bottom: 1px solid #292f33;
+}
+legend.breakdowntitle{
+  color: #292f33;
+  font-size: 16px;
+  font-weight: normal;
+  border-bottom: 1px solid #292f33;
+}
+div.breakdownnumber{
+  font-size:36px;
+}
+div.breakdownlinks li {
+  color: #55acee;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+ul.breakdownlinks{
+  padding-left: 5px;
+}
+div.breakdownlinks li a{
+  color: #55acee;
+  text-decoration: underline;
+}
+p.sm-descrip{
+  font-size: 10px !important;
+  line-height: 10px;
+}
+div#breakdownthumbnail{
+  color: #292f33;
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.428571429;
+  background-color: #FFFFFF;
+  border: 1px solid #292f33;
+  border-radius: 0px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+div#helpmerow{
+  color: white;
+  background-color: #292f33;
+}
+li.summary-tab{
+  font-size: 16px;
+  font-weight: 600;
+}
+li a.current{
+  background-color: black;
+  padding: 15px;
+  color: white;
+  font-weight: 700;
+}
+li a.current:hover{
+  background-color: black !important;
+  color: white;
+  font-weight: 700;
+}
+/* end summary page styles */
+
+
+/* new vendor registrations styles*/
+div.vr-quick-links{
+  margin-bottom: -30px;
+  margin-top: 10px;
+}
+div#vendorregistration{
+  height: auto;
+  width: 100%;
+  width: 100%;
+  display: block;
+}
+ul#vr{
+  padding: 0px;
+}
+li.vrlistitem:nth-child(2n+1){
+  clear: left;
+}
+
+div#vendorbgi{
+  background-repeat: none;
+  background-position: center;
+  background-image: url('http://s3.amazonaws.com/hfc-main/booths/image_1s/000/000/023/medium/IMG_4294.png?1416326399');
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 230px;
+  border: 1px solid black;
+  border-bottom: #ddd;
+}
+div.registrationrole{
+  border: 2px solid white;
+  background-color: rgba(41, 47, 51, 0.35);
+  padding: 3px;
+  float: right;
+  width: 80px;
+  margin-right: 6px;
+  margin-top: 6px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+div#vendorcontent{
+  font-family: 'proxima-nova', 'Helvetica';
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+div#vrdetailsleft{
+  padding-top: 15px;
+}
+p#vrcompanyname{
+  font-weight: 900;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+p#vrprimaryservice{
+  margin-bottom: 3px;
+  font-style: italic;
+}
+element.style {
+}
+dl.vrinfo dt {
+float: left;
+width: 80px;
+clear: left;
+text-align: right;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin-bottom: 5px;
+}
+dl.vrinfo dd{
+margin-left: 92px;
+margin-bottom: 5px;
+}
+
+div#wifielectab{
+  background-color: #f9f9f9;
+  padding-top: 15px;
+  border-bottom-left-radius: 5px;
+  color: #292f33;
+  padding-bottom: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-left: 1px solid #292f33;
+  border-bottom: 1px solid #292f33;
+}
+@media all and (max-width: 768px){
+  div#wifielectab{
+    border: none;
+  }
+}
+div#wifielectab p{
+ color: white;
+}
+div.wifielectabicon{
+  margin-bottom: 10px;
+}
+div#vrtablecount p{
+  color: #2cc55d;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+div#specialrequest{
+  border: 1px solid black;
+  border-top: none;
+  background-color: #F9F9F9;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+
+.summarytodo a { text-decoration: underline; }
+
+/* end new vendor registrations styles*/
+
+
+
+/*workshop styles*/
+
+div.wshp-banner{
+  height: 310px;
+  margin-top: -14px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+div.wshp-info-row{
+  background-color: white;
+  min-height: 186px;
+}
+div.mobile-wshp-info-row{
+  background-color: white;
+  height: auto;
+}
+div.wshp-info-row-col-left{
+  padding: 15px 0px 25px 5px;
+  text-align: center;
+  border-right: 1px solid #eee;
+  height: 100%;
+}
+div.mobile-wshp-info-row-col-left{
+  padding: 15px 0px 5px 5px;
+  text-align: center;
+  border-right: 1px solid #eee;
+  height: 100%;
+}
+div.wshp-info-row-col-mid{
+  padding: 0px 5px 5px 20px;
+}
+div.wshp-info-row-col-right{
+  padding: 5px;
+  border-right: 1px solid #eee;
+  padding-right: 20px;
+}
+div.vendor-wshp-avatar{
+  margin: 0 auto;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: center;
+}
+h2.wshp-title{
+  color: #565A5C;
+}
+h2.mobile-wshp-title{
+  margin-top: -5px;
+  color: #565A5C;
+}
+hr.mobile-divider{
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+p.wshp-13{
+  font-size: 13px;
+  color: #82888a;
+}
+p.wshp-14{
+  font-size: 14px;
+  color: #82888a;
+}
+p.mi-radius{
+  margin-top: -10px;
+  color: #82888a;
+}
+p.wshp-tagline{
+  margin-top: -10px;
+  margin-bottom: 28px;
+  color: #82888a;
+}
+p.wshp-text-white{
+  color: white;
+}
+p.hfc-dk-blue{
+  color: #292f33;
+}
+p.wshp-icon-caption-subline{
+  margin-top: -15px;
+  color: #82888a;
+}
+div.wshp-icon-row{
+  padding: 3px;
+  text-align: center;
+}
+div.wshp-icon-food{
+  margin:0 auto;
+  width: 34px;
+  height: 34px;
+  background-size: contain;
+  background-image: url('https://s3.amazonaws.com/hfc-assets/food-01.png');
+}
+div.wshp-icon-length{
+  margin:0 auto;
+  width: 34px;
+  height: 34px;
+  background-size: contain;
+  background-image: url('https://s3.amazonaws.com/hfc-assets/clock-01.png');
+}
+div.wshp-icon-gift{
+  margin:0 auto;
+  width: 34px;
+  height: 34px;
+  background-size: contain;
+  background-image: url('https://s3.amazonaws.com/hfc-assets/gift-icon-01.png');
+}
+div.wshp-icon-eduhandout{
+  margin:0 auto;
+  width: 34px;
+  height: 34px;
+  background-size: contain;
+  background-image: url('https://s3.amazonaws.com/hfc-assets/eduhandout-01.png');
+}
+div.wshp-icon-mi-radius{
+  margin:0 auto;
+  width: 34px;
+  height: 34px;
+  background-size: contain;
+  background-image: url('https://s3.amazonaws.com/hfc-assets/mi-radius-01.png');
+}
+
+div.wshp-price-box{
+  margin-top: -45px;
+}
+div.wshp-price-box-mobile{
+  margin-top: 0px;
+}
+div.wshp-price-box-left{
+  padding-left: 20px;
+  padding-top: 12px;
+  background-color: rgba(54,62,66,0.75);
+  color: white;
+  height: 40px;
+}
+div.wshp-price-box-right{
+  padding-right: 20px;
+  padding-top: 5px;
+  background-color: rgba(54,62,66,0.75);
+  color: white;
+  text-align: right;
+  height: 40px;
+}
+div.wshp-schedule-book{
+  display: inline-block;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #eee;
+  height: auto;
+  margin-bottom: 0px;
+}
+div.wshp-request-info-left{
+  padding-left: 20px;
+}
+div.wshp-request-info-right{
+  padding-right: 20px;
+}
+p.wshp-price-label{
+  margin: 0px;
+}
+p.wshp-price{
+  font-size: 24px;
+  margin: 0px;
+  font-weight: 600;
+}
+p.wshp-date-time-request{
+  font-size: 14px;
+  color: #292f33;
+  margin: 0px;
+}
+input.wshp-request-field{
+  border-radius: 0px;
+  border: 1px solid #999;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+button.btn.wshp-request-btn{
+  color: white;
+  width: 100%;
+  background-color: #c71585;
+  border-radius: 0px;
+  height: 40px;
+  border-bottom: 2px solid #9E1069;
+  font-weight: 600;
+  font-size: 16px;
+}
+td.wshp-avail-day{
+  font-weight: bold;
+  border-top: 1px solid #F4F4F4 !important;
+  text-align: right;
+  width: 90px;
+}
+td.wshp-avail-time{
+  border-top: 1px solid #F4F4F4 !important;
+  text-align: left;
+}
+/* end workshop styles*/

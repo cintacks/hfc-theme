@@ -1,0 +1,79 @@
+.profile-header {
+  height: 200px;
+  font-family: 'proxima-nova-n4', 'proxima-nova', 'helvetica';
+  padding: 10px;
+}
+
+.profile-header > img {
+  float: left;
+  display: block;
+}
+
+.profile-header .company-name {
+  float: left;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.profile-header .state-and-city {
+  margin-top: 10px;
+  font-family: 'proxima-nova-n4', 'proxima-nova', 'helvetica';
+  font-size: 16px;
+}
+
+.profile-header-information-wrapper {
+  // border: 1px #000 solid;
+  height: 200px;
+  width: 80%;
+  float: left;
+  margin-left: 15px;
+}
+
+.edit-profile-button {
+  margin-top: 20px;
+}
+
+.profile-box {
+  border: 1px #ccc solid;
+  width: 350px;
+  min-height: 232px;
+}
+
+.profile-box-header {
+  font-weight: bold;
+  border-bottom: 1px #ccc solid;
+  padding: 10px;
+}
+
+.inner-profile-box {
+  padding: 10px 0 10px 0;
+}
+
+.inner-profile-box-list {
+  list-style: none;
+}
+
+#right-profile-box {
+  margin-left: 20px;
+}
+
+#right-profile-box.profile-box {
+  width: 600px;
+  height: 100%;
+}
+
+.profile-page-wrapper {
+  width: 100%;
+}
+
+.profile-bottom-wrapper {
+  width: 970px;
+  margin: 0 auto;
+}
+
+.big-strong {
+  font-size: 17px;
+}
+.primary-service-category{
+  font-family: 'proxima-nova-n4', 'proxima-nova', 'helvetica';
+}

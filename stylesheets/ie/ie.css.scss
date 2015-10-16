@@ -1,0 +1,14 @@
+.new_user {
+	.form-control {
+		line-height: 45px !important;
+	}
+}
+
+body {
+	/*Reduce font size by a point for Windows resolution issues*/
+	font-size:13px;
+}
+
+.navbar-brand img {
+	width:330px;
+}

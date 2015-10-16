@@ -1,0 +1,264 @@
+/*
+ *= require_self
+ *= require_tree .
+ */
+
+// GLOBAL
+
+.offset-sidebar {
+  margin-left: 230px;
+}
+
+.alert, .notice {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.padding-20-l {
+  padding-left: 20px;
+}
+.lighthouse-nav-list {
+  line-height: 20px;
+  line-height: 60px;
+  font-size: 1.3em;
+}
+
+.lighthouse-nav-list div {
+  padding-left: 45px;
+}
+
+.lighthouse-nav-list div:hover {
+  background: #fff;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.li-active {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+.no-list-style {
+  list-style: none;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px #ccc solid;
+  overflow: hidden;
+  padding-bottom: 10px;
+
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+
+  -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+          box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.box-header {
+  font-weight: bold;
+  font-size: 1.1em;
+  border-bottom: 1px #ccc solid;
+  padding: 10px;
+}
+
+.inner-box {
+  padding: 10px 20px;
+}
+
+.inner-box {
+  padding: 10px 20px;
+}
+
+.inner-box-list > li {
+  list-style: none;
+  line-height: 21px;
+  float: left;
+  margin-right: 20px;
+}
+
+.inner-box-list > li > ul > li {
+  list-style: none;
+}
+
+
+.inner-box-list > li > ul > li {
+  list-style: none;
+}
+
+.padding-l-5 {
+  padding-left: 5px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.lighthouse-navbar-static {
+  width: 230px;
+  height: 100%;
+  background: #eee;
+  position: fixed;
+  display: block;
+}
+
+.lighthouse-logo > img {
+  width: 230px;
+}
+
+.lighthouse-nav-list > li {
+  list-style: none;
+  padding: 20px 0 0 0;
+  color: #aaa;
+  font-size: 1.4em;
+}
+
+.pull-to-the-bottom {
+  position: absolute;
+  bottom: 40px;
+}
+
+.lighthouse-container {
+  height: 100%;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.lighthouse-top-header {
+  font-size: 2.3em;
+  font-weight: bold;
+  line-height: 40px;
+  padding-bottom: 20px;
+  margin-top: 1.875em;
+  margin-left: .6em;
+}
+
+.lighthouse-blue {
+  color: #00bcd8;
+}
+
+.create-wellness-event {
+  font-size: 15px;
+  background: #aaa;
+  color: #fff;
+  width: 250px;
+  padding-left: 40px;
+  font-weight: normal;
+}
+
+.create-wellness-event > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.my-account-headline {
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: -35px;
+}
+
+.health-fair-wrapper {
+  width: 100%;
+}
+
+.left-column-health-fair-show {
+  float: left;
+}
+
+.right-column-health-fair-show {
+  float: left;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.li-button {
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  background: #aaa;
+  color: #fff;
+}
+
+.li-button > a {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.li-db-wrapper {
+  padding: 15px;
+}
+
+.li-box-header {
+  margin-top: 10px;
+  font-size: 0.9em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.li-box-content {
+  font-size: 7.8em;
+  width: 0;
+  margin-top: 2px;
+  margin: 0 auto;
+  width: 200px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.li-box {
+  width: 200px;
+  height: 200px;
+  background: #ccc;
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 750px) {
+  .lighthouse-navbar-static {
+    display: none;
+  }
+  .navbar.navbar-default {
+    display: block !important;
+  }
+  .offset-sidebar {
+    margin-left: 20px;
+  }
+}
+
+#lighthouse .navbar-toggle {
+  color: #fff;
+  border: #fff;
+}
+#lighthouse .navbar-toggle:hover {
+  background-color: 0 !important;
+}
+
+#lighthouse .nav.navbar-nav li a {
+  color: #fff;
+}
+
+#lighthouse .icon-bar {
+  background-color: #fff!important;
+}
+.li-namespace .box-header {
+  background: #2D373F;
+  border: #2D373F;
+  color: #fff;
+}
+
+.li-namespace .box {
+  border: 1px #2D373F solid;
+}
+
+.hint {
+  clear: left;
+}

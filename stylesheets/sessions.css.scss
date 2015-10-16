@@ -1,0 +1,138 @@
+.left-homepage {
+  width: 50%;
+  height: 100%;
+  background: url('homepage_bg.png') -200px no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.bottom-sticky-left-homepage {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background: url('bg-black.png') repeat;
+  padding: 20px;
+}
+
+.testimonial-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  float: left;
+  margin-right: 10px;
+  background: url("http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/05f/144/0ce9d3c.jpg") -64px -62px;
+  background-size: 62px;
+  opacity: 1.0;
+}
+
+.paragraph-testimonial {
+  font-size: 1.1em;
+  color: #fff;
+  opacity: 1.0 !important;
+}
+
+.testimonial-author {
+  font-size: 1.1em;
+  color: #aaa;
+  opacity: 1.0;
+  font-weight: bold;
+}
+
+.right-homepage {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  width: 50%;
+  background: #fff !important;
+  height: 100%;
+  float: right;
+  color: #393939 !important;
+}
+
+.top-header-homepage-buttons {
+  position: relative;
+  margin-bottom: 100px;
+  padding: 40px;
+}
+
+.main-hp-copy {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 1.6em;
+}
+
+.main-hp-copy p {
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.main-hp-copy > h1 {
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+.bottom-sticky-right-homepage {position: absolute;bottom: 0;height: 100px;padding: 40px;opacity: 1;width: 50%;font-size: 15px;border: 1px solid #ededed !important;}
+
+.modal-body > .modal-body-left {
+  border-right: 1px #000 solid;
+  width: 50%;
+  padding: 10px 0 20px 80px;
+  float: left;
+}
+
+.modal-body > .modal-body-right {
+  padding: 10px 0 0 0;
+  margin-left: 40px;
+  position: relative;
+  left: 70px;
+  float: left;
+  width: 30%;
+}
+
+.modal-body .modal-body-right a {
+  position: relative;
+  top: -11px;
+  right: 20px;
+}
+
+.right-homepage .hp-start-health-fair {
+  color: #000;
+}
+
+
+.login {
+  margin-top: 100px;
+}
+
+.login-title {
+  float: left;
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: 10px;
+  position: relative;
+  top: 5px;
+}
+
+.remember-me {
+  float: left;
+}
+
+.remember-me > label {
+  float: right;
+  position: relative;
+  top: -19px;
+  left: 8px;
+}
+
+.register a:not(a:nth-child(2)) {
+  display: block;
+  float: left;
+}
+div#signupholder{
+  background-color: #fff;
+  padding: 10px;
+  height: 250px;
+}
+div.top-header-homepage-buttons{
+  font-family: 'proxima-nova-n4', 'proxima-nova';
+}
